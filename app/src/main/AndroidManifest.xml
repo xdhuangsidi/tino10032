@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tino">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".core.TinoApplication"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+
+        <meta-data
+            android:name="com.tino.core.Glide.UnsafeOkHttpGlideModule"
+            android:value="GlideModule" />
+        <meta-data android:name="Mob-AppKey" android:value="1fb6d62928273"/>
+        <meta-data android:name="Mob-AppSecret" android:value="f88fb2f8be82eb8ca1a355baf4e7e101"/>
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:multiprocess="true">
+            <intent-filter android:priority="1000">
+                <data android:scheme="tencent1106270277" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+            </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+
+        <activity android:name=".ui.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+
+        </activity>
+
+
+
+        <activity android:name=".ui.me.EditMeActivity">
+
+        </activity>
+
+        <activity android:name=".ui.login.WelComeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.message.CustomChatActivity"/>
+        <activity android:name=".ui.upload.UpShareActivity"/>
+        <activity android:name=".ui.PhotoViewActivity"/>
+        <activity android:name=".ui.message.ChatActivity"/>
+        <activity android:name=".ui.message.ImagePreviewActivity"/>
+        <activity android:name=".ui.message.ImageViewActivity"/>
+        <activity android:name=".ui.message.VideoActivity"/>
+        <activity android:name=".ui.home.ShareDetailActivity"/>
+        <activity android:name=".ui.home.UpReplyActivity"/>
+        <activity android:name=".ui.me.ChangPwdActivity"/>
+        <activity android:name=".ui.upload.UpTopActivity"/>
+        <activity android:name=".ui.me.NetImageViewActivity"/>
+        <activity android:name=".ui.home.UserDetialFromIdActivity"/>
+        <service android:name=".ui.upload.UpShareService"/>
+        <service android:name=".ui.upload.UpTopicService"/>
+         <activity android:name=".ui.me.EditSetActivity">
+
+         </activity>
+        <activity android:name=".ui.home.UserDetialActivity"/>
+
+        <activity android:name=".ui.TestActivity">
+
+        </activity>
+
+        <activity android:name=".ui.TopicActivity">
+
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

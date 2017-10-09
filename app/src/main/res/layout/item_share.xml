@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff"
+    android:paddingLeft="12.0dip"
+    android:paddingTop="24.0dip"
+    android:paddingRight="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.tino.views.CircleImageView
+        android:id="@id/avatar"
+        android:layout_width="46.0dip"
+        android:layout_height="46.0dip"
+        android:src="@mipmap/avatar_default" />
+
+    <TextView
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/colorPrimary"
+        android:id="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:text="爱读书的好孩子"
+        android:layout_toRightOf="@id/avatar" />
+
+    <TextView
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/text_gray"
+        android:id="@+id/tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:text="分享文章"
+        android:visibility="gone"
+        android:layout_toRightOf="@id/tv_name" />
+
+    <TextView
+        android:textSize="@dimen/text_xsmall"
+        android:textColor="@color/text_light_gray"
+        android:id="@id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dip"
+        android:text="5分钟前"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_below="@id/tv_name" />
+    <ImageButton
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:background="@null"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="13.0dip"
+        android:layout_marginTop="6dp"
+        android:src="@mipmap/ic_close"
+        android:visibility="gone"
+        android:id="@+id/ib_delete_comment"
+        android:layout_alignParentRight="true"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="2.0dip"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_below="@id/avatar">
+
+        <RelativeLayout
+            android:id="@+id/rl_article"
+            android:background="@color/bg_gray"
+            android:padding="8.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_toRightOf="@id/avatar"
+            android:layout_below="@id/tv_time">
+
+            <ImageView
+                android:id="@+id/iv_pic"
+                android:background="#ffeeeeee"
+                android:layout_width="36.0dip"
+                android:layout_height="36.0dip"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:textSize="@dimen/text_medium"
+                android:textColor="@color/colorPrimary"
+                android:ellipsize="end"
+                android:id="@id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8.0dip"
+                android:text="哈哈哈哈,我是评论哈哈哈哈.这是本好书,而且楼主的书保存的很好,给赞!!!"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/iv_pic"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_say"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip">
+
+            <TextView
+                android:textSize="15.0sp"
+                android:textColor="@color/text_gray"
+                android:ellipsize="end"
+                android:id="@id/tv_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="哈哈哈哈,我是评论哈哈哈哈.这是本好书,而且楼主的书保存的很好,给赞!!!"
+                android:layout_centerVertical="true"
+                android:lineSpacingExtra="4.0dip" />
+        </RelativeLayout>
+
+        <com.tino.views.NoScrollGridView
+            android:id="@+id/photo_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:numColumns="3" />
+
+        <com.tino.views.AppNoScrollerListView
+            android:id="@id/lv_comments"
+            android:fadingEdge="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:listSelector="?selectableItemBackground"
+            android:cacheColorHint="#00000000"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0dip"
+            android:fastScrollEnabled="false"
+            android:headerDividersEnabled="false"
+            android:footerDividersEnabled="false" />
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@id/rl_say">
+
+            <TextView
+                android:textSize="@dimen/text_xsmall"
+                android:textColor="@color/text_light_gray"
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0评论 . 3喜欢"
+                android:layout_centerVertical="true" />
+
+            <ImageButton
+                android:id="@+id/ib_like"
+                android:background="@null"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_favorit"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+            <ImageButton
+                android:id="@id/ib_comment"
+                android:background="@null"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_comment"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:background="#ffececec"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_below="@id/ll_content" />
+</RelativeLayout>

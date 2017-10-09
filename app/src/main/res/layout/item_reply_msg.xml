@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff"
+    android:paddingTop="24.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.tino.views.CircleImageView
+        android:id="@id/avatar"
+        android:layout_width="46.0dip"
+        android:layout_height="46.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:src="@drawable/avatar_default" />
+
+    <TextView
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tv_name_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="ABC"
+        android:layout_toRightOf="@id/avatar" />
+
+    <TextView
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/text_gray"
+        android:id="@+id/tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:text="DDD"
+        android:layout_toRightOf="@id/tv_name_reply" />
+    <TextView
+        android:textSize="11sp"
+        android:textColor="@color/text_gray"
+        android:id="@+id/tv_reply_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14.0dip"
+        android:text="21:45"
+        android:visibility="gone"
+        android:layout_below="@id/tv_name_reply"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/avatar" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="2.0dip"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_below="@id/avatar">
+        <RelativeLayout
+            android:id="@id/rl_say"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip">
+
+            <TextView
+                android:textSize="15.0sp"
+                android:textColor="@color/text_gray"
+                android:ellipsize="end"
+                android:id="@id/tv_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="I agree with you"
+                android:layout_centerVertical="true"
+                android:lineSpacingExtra="4.0dip" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_article"
+            android:background="@color/bg_gray"
+            android:padding="8.0dip"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_toRightOf="@id/avatar"
+            android:layout_below="@id/tv_time">
+
+
+
+            <TextView
+                android:textSize="@dimen/text_medium"
+                android:textColor="@color/colorPrimary"
+                android:ellipsize="end"
+                android:id="@id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8.0dip"
+                android:text="source  content"
+                android:singleLine="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/divider"
+        android:background="#ffececec"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_below="@id/ll_content" />
+</RelativeLayout>

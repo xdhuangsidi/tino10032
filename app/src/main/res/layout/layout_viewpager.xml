@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/fl_pagerRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="240.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.view.ViewPager
+        android:id="@id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="240.0dip" />
+
+    <LinearLayout
+        android:gravity="center|right"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@+id/indicators"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24.0dip"
+        android:layout_marginBottom="12.0dip" />
+</FrameLayout>

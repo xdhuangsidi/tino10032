@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+    <QZone
+        Id="3"
+        SortId="3"
+        AppId="1106270277"
+        AppKey="ee88YqOmHTx1rJN5"
+	BypassApproval="true"
+        Enable="true" />
+    
+    <Wechat
+        Id="4"
+        SortId="4"
+        AppId="wx4868b35061f87885"
+        AppSecret="64020361b8ec4c99936c0e3999a9f249"
+		userName="gh_afb25ac019c9"
+		path="pages/index/index.html?id=1"
+        BypassApproval="true"
+        Enable="true" />
+    <WechatMoments
+        Id="5"
+        SortId="5"
+        AppId="wx4868b35061f87885"
+        AppSecret="64020361b8ec4c99936c0e3999a9f249"
+        BypassApproval="true"
+        Enable="true" />
+	<WechatFavorite
+        Id="6"
+        SortId="6"
+        AppId="wx4868b35061f87885"
+        AppSecret="64020361b8ec4c99936c0e3999a9f249"
+        Enable="true" />
+	<QQ
+        Id="7"
+        SortId="7"
+        AppId="1106270277"
+        AppKey="ee88YqOmHTx1rJN5"
+        ShareByAppClient ="true"
+		BypassApproval = "false"
+        Enable="true" />
+</DevInfor>

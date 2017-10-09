@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/progress_item1"  />
+    <item android:id="@+id/progress_item2">
+        <clip>
+            <shape>
+                <solid android:color="@color/colorPrimary" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

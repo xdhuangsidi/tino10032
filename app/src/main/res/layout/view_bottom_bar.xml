@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@+id/input_bottom_bar_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/window_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:textColor="@color/text_dark"
+            android:gravity="center_vertical"
+            android:id="@+id/input_bottom_bar_et_content"
+            android:background="@drawable/white_corner"
+            android:paddingLeft="18.0dip"
+            android:paddingTop="5.0dip"
+            android:paddingBottom="5.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:minHeight="40.0dip"
+            android:maxEms="4"
+            android:layout_weight="1.0" />
+
+        <ImageButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/input_bottom_bar_btn_send"
+            android:background="@null"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip"
+            android:layout_width="46.0dip"
+            android:layout_height="46.0dip"
+            android:src="@mipmap/send" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

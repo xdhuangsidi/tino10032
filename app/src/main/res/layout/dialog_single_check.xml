@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:id="@+id/radio_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:textSize="16.0sp"
+        android:id="@+id/rb_boy"
+        android:padding="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="男"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/accent_material_light" />
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:textSize="16.0sp"
+        android:id="@+id/rb_girl"
+        android:padding="16.0dip"
+        android:textColor="@color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="女" />
+</RadioGroup>

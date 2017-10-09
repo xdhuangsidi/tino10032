@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8.0dip"
+    android:layout_marginTop="5.0dip"
+    android:layout_marginRight="46.0dip"
+    android:layout_marginBottom="5.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="@dimen/text_xsmall"
+        android:textColor="#ffffffff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_time"
+        android:background="@drawable/gray_rect"
+        android:padding="3.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20.0dip">
+
+        <com.tino.views.CircleImageView
+            android:id="@id/avatar"
+            android:layout_width="46.0dip"
+            android:layout_height="46.0dip"
+            android:src="@mipmap/avatar_default" />
+
+        <RelativeLayout
+            android:id="@+id/leftMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="8.0dip"
+            android:clickable="true"
+
+            android:longClickable="true"
+            android:gravity="center"
+            android:layout_toRightOf="@id/avatar"
+            android:background="@drawable/chat_left"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto">
+
+   <com.tino.views.ProgressWheel
+        android:id="@+id/progress"
+        android:layout_width="52.0dip"
+        android:layout_height="52.0dip"
+        wheel:matProg_progressIndeterminate="true"
+        wheel:matProg_barColor="#ff5588ff" />
+
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="#ff555555"
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_toRightOf="@id/progress"
+        android:text="正在登录..."
+        android:layout_centerVertical="true" />
+
+
+</RelativeLayout>

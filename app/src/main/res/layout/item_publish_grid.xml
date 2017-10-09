@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="95.0dip"
+    android:layout_height="95.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="95.0dip"
+        android:layout_height="95.0dip"
+        android:src="@drawable/icon_addpic"
+        android:scaleType="centerCrop" />
+
+    <ImageButton
+        android:id="@+id/bt_delete"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4.0dip"
+        android:src="@mipmap/ic_close"
+        android:layout_alignRight="@id/iv" />
+</RelativeLayout>

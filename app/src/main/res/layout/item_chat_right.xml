@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="46.0dip"
+    android:layout_marginTop="12.0dip"
+    android:layout_marginRight="8.0dip"
+    android:layout_marginBottom="5.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="@dimen/text_xsmall"
+        android:textColor="#ffffffff"
+        android:layout_gravity="center"
+        android:id="@+id/tv_time"
+        android:background="@drawable/gray_rect"
+        android:padding="3.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dip" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip">
+
+
+
+        <com.tino.views.CircleImageView
+            android:id="@id/avatar"
+            android:layout_width="46.0dip"
+            android:layout_height="46.0dip"
+            android:src="@mipmap/avatar_default"
+            android:layout_alignParentRight="true" />
+
+        <RelativeLayout
+            android:id="@+id/rightMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:longClickable="true"
+            android:layout_toLeftOf="@+id/avatar"
+            android:background="@drawable/chat_right"/>
+
+        <RelativeLayout
+            android:id="@+id/sendStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rightMessage">
+            <ProgressBar
+                android:id="@+id/sending"
+                android:layout_width="15dp"
+                android:layout_height="15dp"/>
+            <ImageView
+                android:id="@+id/sendError"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:visibility="gone"
+                android:src="@mipmap/message_send_error"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

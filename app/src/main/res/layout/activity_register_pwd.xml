@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@mipmap/splash_blur"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60.0dip"
+        android:layout_marginBottom="110dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.tino.views.EText
+            android:textColor="#ff7f7f7f"
+            android:id="@+id/et_passwd0"
+            android:padding="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:hint="输入密码"
+            android:maxLength="12"
+            android:inputType="textPassword"
+            android:drawableLeft="@mipmap/ic_pwd"
+            android:drawablePadding="16.0dip"
+            app:backgroundTint="#ffc1c1c1" />
+
+
+
+        <View
+            android:background="#ffc1c1c1"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:layout_below="@id/et_authcode" />
+    </RelativeLayout>
+
+    <com.tino.views.EText
+        android:textColor="#ff7f7f7f"
+        android:id="@+id/et_passwd1"
+        android:padding="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:hint="确认密码"
+        android:maxLength="12"
+        android:inputType="textPassword"
+        android:drawableLeft="@mipmap/ic_pwd"
+        android:drawablePadding="16.0dip"
+        app:backgroundTint="#ffc1c1c1" />
+
+    <Button
+        android:textSize="18.0sp"
+        android:textColor="#ffffffff"
+        android:id="@id/bt_register"
+        android:background="@drawable/bt_green_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginTop="40.0dip"
+        android:layout_marginRight="30.0dip"
+        android:text="确    定" />
+</LinearLayout>

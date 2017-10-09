@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <View
+            android:background="#ffe7e7e7"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip" />
+
+        <ScrollView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:fitsSystemWindows="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="头像"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="0dp" />
+                    <com.tino.views.CircleImageView
+
+                        android:id="@+id/avatar_set"
+                        android:layout_width="46.0dip"
+                        android:layout_height="46.0dip"
+                        android:layout_marginRight="20dp"
+                        android:src="@mipmap/avatar_default" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.0dip">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="昵称" />
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:textSize="16.0sp"
+                        android:textColor="@color/text_dark"
+                        android:id="@+id/et_username"
+                        android:padding="13.0dip"
+                        android:gravity="end"
+                        android:text="jjjjj"
+                        android:background="@drawable/edit_text_material"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginRight="16.0dip"
+                        android:maxLength="10"
+                        app:backgroundTint="#ffc1c1c1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.0dip">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="签名"/>
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:textSize="16.0sp"
+                        android:textColor="@color/text_dark"
+                        android:id="@+id/et_signature"
+                        android:padding="13.0dip"
+                        android:gravity="end"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginRight="16.0dip"
+                        android:background="@drawable/edit_text_material"
+                        android:maxLength="30"
+                        android:text="签名dddddd"
+                        app:backgroundTint="#ffc1c1c1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="性别" />
+
+
+                    <TextView
+                        android:textSize="16.0sp"
+                        android:textColor="@color/text_dark"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/tv_gender"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="46.0dip"
+                        android:text="男" />
+
+                    <Button
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@drawable/label_selector"
+                        android:gravity="right"
+
+                        android:id="@+id/bt_select_gender"
+                        android:layout_width="80.0dip"
+                        android:layout_height="40.0dip"
+                        android:text="修改性别" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="学校" />
+
+                    <Spinner
+                        android:id="@+id/spinner_school"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginRight="16.0dip"
+                        android:padding="2.0dip"
+                        android:textSize="16.0sp"
+                        android:textColor="#000"
+                        android:gravity="end"
+                        app:backgroundTint="#ffc1c1c1"
+                        />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="学院" />
+
+                    <Spinner
+                        android:id="@+id/spinner_institute"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginRight="16.0dip"
+                        android:padding="2.0dip"
+                        android:textSize="16.0sp"
+                        android:textColor="#000"
+                        app:backgroundTint="#ffc1c1c1"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="专业" />
+
+                    <Spinner
+                        android:id="@+id/spinner_profession"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginRight="16.0dip"
+                        android:padding="2.0dip"
+                        android:textSize="14.0sp"
+                        android:textColor="#000"
+                        app:backgroundTint="#ffc1c1c1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="年级" />
+
+                    <Spinner
+                        android:id="@+id/spinner_grade"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30.0dip"
+                        android:layout_marginRight="16.0dip"
+                        android:padding="2.0dip"
+                        android:textSize="16.0sp"
+                        android:textColor="#000"
+                        app:backgroundTint="#ffc1c1c1"
+                        />
+                </LinearLayout>
+
+                <Button
+                    android:textSize="18.0sp"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/bt_save"
+                    android:background="@drawable/bt_green_selector"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="保 存 修 改"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</merge>

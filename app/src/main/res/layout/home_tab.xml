@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="6dp"
+    android:paddingBottom="2dp"
+    android:orientation="vertical" >
+
+<RelativeLayout
+        android:id="@+id/tabIndicator"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="5dp"
+
+            android:layout_gravity="center"
+            android:focusable="false" />
+    <TextView
+        android:id="@+id/tabUnread"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:text="18"
+        android:visibility="gone"
+        android:textSize="8.5sp"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:background="@drawable/point1"
+        android:layout_toRightOf="@id/icon"/>
+    <TextView
+        android:id="@+id/tab_title"
+        android:focusable="false"
+        android:textSize="1sp"
+        android:layout_gravity="center"
+        android:textColor="@drawable/bg_tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp" />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

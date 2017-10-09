@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:paddingLeft="12.0dip"
+    android:paddingTop="12.0dip"
+    android:paddingRight="12.0dip"
+    android:background="#ffffffff"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.tino.views.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="46.0dip"
+        android:layout_height="46.0dip"
+        android:src="@drawable/avatar_default" />
+
+    <TextView
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/black"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:text="ABCD"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/avatar" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="2.0dip"
+
+        android:layout_below="@id/avatar">
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:background="#ffececec"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_below="@id/ll_content" />
+</RelativeLayout>

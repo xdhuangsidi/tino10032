@@ -1,0 +1,82 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <dimen name="design_snackbar_action_inline_max_width">128dp</dimen>
+
+    <dimen name="design_snackbar_background_corner_radius">2dp</dimen>
+
+    <dimen name="design_snackbar_extra_spacing_horizontal">24dp</dimen>
+
+    <dimen name="design_snackbar_max_width">576dp</dimen>
+
+    <dimen name="design_snackbar_min_width">320dp</dimen>
+
+    <dimen name="design_tab_scrollable_min_width">72dp</dimen>
+
+
+
+
+
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="design_navigation_padding_top_default">24dp</dimen>
+
+
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="design_appbar_elevation">4dp</dimen>
+    <dimen name="design_fab_border_width">0.5dp</dimen>
+    <dimen name="design_fab_content_size">24dp</dimen>
+    <dimen name="design_fab_elevation">6dp</dimen>
+    <dimen name="design_fab_size_mini">40dp</dimen>
+    <dimen name="design_fab_size_normal">56dp</dimen>
+    <dimen name="design_fab_translation_z_pressed">6dp</dimen>
+    <dimen name="design_navigation_elevation">16dp</dimen>
+    <dimen name="design_navigation_icon_padding">32dp</dimen>
+    <dimen name="design_navigation_icon_size">24dp</dimen>
+    <dimen name="design_navigation_max_width">320dp</dimen>
+    <dimen name="design_navigation_padding_bottom">8dp</dimen>
+    <dimen name="design_navigation_separator_vertical_padding">8dp</dimen>
+    <dimen name="design_snackbar_elevation">6dp</dimen>
+    <dimen name="design_snackbar_padding_horizontal">12dp</dimen>
+    <dimen name="design_snackbar_padding_vertical">14dp</dimen>
+    <dimen name="design_snackbar_text_size">14sp</dimen>
+    <dimen name="design_tab_max_width">264dp</dimen>
+    <dimen name="design_tab_text_size">14sp</dimen>
+    <dimen name="design_tab_text_size_2line">12sp</dimen>
+
+    <dimen name="hero_avatar_border">3dp</dimen>
+    <dimen name="hero_avatar_size">120dp</dimen>
+
+    <dimen name="indicator_margin">6dp</dimen>
+    <dimen name="indicator_size">6dp</dimen>
+
+    <dimen name="load_more_drawable_size_google">36dp</dimen>
+    <dimen name="load_more_final_offset_google">120dp</dimen>
+    <dimen name="load_more_footer_height_classic">60dp</dimen>
+    <dimen name="load_more_footer_height_google">72dp</dimen>
+    <dimen name="load_more_footer_height_twitter">60dp</dimen>
+    <dimen name="load_more_trigger_offset_google">88dp</dimen>
+
+    <dimen name="refresh_drawable_size_google">40dp</dimen>
+    <dimen name="refresh_final_offset_google">150dp</dimen>
+    <dimen name="refresh_header_height_google">100dp</dimen>
+    <dimen name="refresh_header_height_twitter">80dp</dimen>
+    <dimen name="refresh_trigger_offset_google">100dp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_xlarge">20sp</dimen>
+    <dimen name="text_xsmall">12sp</dimen>
+    <dimen name="text_xxlarge">22sp</dimen>
+    <dimen name="toolbarHeight">52dp</dimen>
+    <dimen name="toolbar_elevation">8dp</dimen>
+    <dimen name="viewpager_height">240dp</dimen>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:src="@drawable/empty_share" />
+
+    <TextView
+        android:id="@+id/tv_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="神马也没有 T^T"
+        android:textColor="#9c9c9c"
+        android:textSize="16sp" />
+</LinearLayout>

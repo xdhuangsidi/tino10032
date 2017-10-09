@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@+id/content"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/appBarLayout"
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0.0dip">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:fitsSystemWindows="true"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:contentScrim="?colorPrimary">
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:fitsSystemWindows="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:layout_collapseMode="parallax">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:src="@drawable/meme_bg"
+                   android:scaleType="centerCrop"
+                   android:layout_height="210dp" />
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/transparent"
+                    android:layout_width="fill_parent"
+                    android:focusable="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="210.0dip">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1.0dip">
+                        <RelativeLayout
+                            android:id="@+id/rl_avatar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.tino.views.CircleImageView
+                                android:id="@+id/iv_avatar"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="77.0dip"
+                                app:border_color="#FFF"
+                                app:border_width="2dp"
+                                android:layout_height="77.0dip"
+                                android:src="@mipmap/avatar_default" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6.0dip">
+
+                        <TextView
+                            android:textSize="18.0sp"
+                            android:textColor="#FFFFFE"
+                            android:id="@+id/me_username"
+                            android:text="Neymar"
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:id="@+id/sex"
+                            android:paddingLeft="5dp"
+                            android:layout_marginTop="2.0dp"
+                            android:src="@drawable/ic_girl"
+                            android:layout_width="18.0dip"
+                            android:layout_height="18.0dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip"
+                        android:layout_marginBottom="0dp"
+                       >
+                        <TextView
+                            android:textSize="14.0sp"
+                            android:textColor="#BBFFFFFE"
+                            android:layout_gravity="center"
+                            android:id="@+id/me_institute"
+                            android:text="物理与光电工程学院"
+                            android:letterSpacing="0.16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2.0dip"
+                        android:layout_marginBottom="0.0dip">
+                        <TextView
+                            android:textSize="12.5sp"
+                            android:textColor="#BBFFFFFE"
+                            android:layout_gravity="center"
+                            android:id="@+id/me_signature"
+                            android:textStyle="normal"
+                            android:typeface="serif"
+                            android:text="环顾长安八百里，唯我西电大物光"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="parallax" />
+
+            <ImageView
+                android:id="@+id/me_setting"
+                android:layout_width="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:padding="0dp"
+                android:layout_gravity="end"
+                android:background="@mipmap/ic_setting"
+                android:layout_height="30dp" />
+            <ImageView
+                android:id="@+id/me_share"
+                android:layout_width="41dp"
+                android:padding="0dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="3dp"
+                android:background="@mipmap/ic_share"
+                android:layout_height="30dp" />
+            <LinearLayout
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.flyco.tablayout.SlidingTabLayout
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/slide_tab"
+                    android:background="#ffffffff"
+                    android:paddingTop="1.0dip"
+                    android:paddingBottom="1.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="42.0dip"
+                    app:tl_divider_padding="13.0dip"
+                    app:tl_indicator_color="@color/colorPrimary"
+                    app:tl_indicator_corner_radius="0.0dip"
+                    app:tl_indicator_gravity="BOTTOM"
+                    app:tl_indicator_height="2.0dip"
+                    app:tl_indicator_width="50.0dip"
+                    app:tl_indicator_width_equal_title="true"
+                    app:tl_tab_space_equal="true"
+                    app:tl_textSelectColor="@color/colorPrimary"
+                    app:tl_textUnselectColor="#ff666666"
+                    app:tl_textsize="16.0sp"
+                    app:tl_underline_color="#00000000" />
+
+                <View
+                    android:background="#ffeeeeee"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip" />
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_me_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>
