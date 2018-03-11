@@ -36,6 +36,8 @@
 
 * im的功能实现需要在https://github.com/xdhuangsidi/tino10032/blob/r4/app/src/main/java/com/tino/core/TinoApplication.java  中初始化，比较重要的是https://github.com/xdhuangsidi/tino10032/tree/r4/app/src/main/java/com/tino/im/event 中的采用观察者模式监听是否收到消息，然后view包中包含表情包 语音输入 图片放缩显示等控件  present包含了处理消息的逻辑
 
+* https://github.com/xdhuangsidi/tino10032/tree/r4/app/src/main/java/com/tino/core/net 对okhttp进行了封装，以单例模式获取网络连接的对象，以及对http请求体的修改添加参数的封装
+
 
 
 
