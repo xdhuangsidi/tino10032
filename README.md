@@ -8,7 +8,7 @@
 
 应用截图
 ----- 
-![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg =100x200) ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg)
+![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg =100*200) ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg)
 ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main2.jpeg)
 ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat1.jpeg)
 ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat2.jpeg)
