@@ -8,7 +8,7 @@
 
 应用截图
 -----  
-<div class="row"  float: left>
+<div class="row"  float: left width: 12.5% >
 <img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg" width = "180" height = "300"  align=center />
 <img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg" width = "180" height = "300"  align=center />
 <img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/main2.jpeg" width = "180" height = "300"  align=center />
