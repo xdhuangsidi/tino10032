@@ -9,8 +9,7 @@
 应用截图
 -----  
 <img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg" width = "150" height = "300"  align=center />
-![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg)
-![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main2.jpeg)
-![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat1.jpeg)
-![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat2.jpeg)
-![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/upload.jpeg)
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg" width = "150" height = "300"  align=center />
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/main2.jpeg" width = "150" height = "300"  align=center />
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat1.jpeg" width = "150" height = "300"  align=center />
+
