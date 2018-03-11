@@ -1,1 +1,6 @@
-No thing 
+![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg)
+![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg)
+![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main2.jpeg)
+![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat1.jpeg)
+![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat2.jpeg)
+![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/upload.jpeg)
