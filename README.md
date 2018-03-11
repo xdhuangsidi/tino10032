@@ -9,11 +9,12 @@
 应用截图
 -----  
 <div class="row"  float: left>
-<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg" width = "150" height = "300"  align=center />
-<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg" width = "150" height = "300"  align=center />
-<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/main2.jpeg" width = "150" height = "300"  align=center />
-<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat1.jpeg" width = "150" height = "300"  align=center />
-<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/upload.jpeg" width = "150" height = "300"  align=center />
-<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/detail.jpeg" width = "150" height = "300"  align=center />
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg" width = "180" height = "300"  align=center />
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg" width = "180" height = "300"  align=center />
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/main2.jpeg" width = "180" height = "300"  align=center />
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat1.jpeg" width = "180" height = "300"  align=center />
+  <img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat2.jpeg" width = "180" height = "300"  align=center />
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/upload.jpeg" width = "180" height = "300"  align=center />
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/detail.jpeg" width = "180" height = "300"  align=center />
 </div>
 
