@@ -7,8 +7,9 @@
 * 短信验证功能：使用mob免费短信验证，通过审核后免费使用短信验证登录
 
 应用截图
------ 
-![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg =100×200) ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg)
+-----  
+<img src="https://github.com/xdhuangsidi/tino10032/blob/r4/app/login.jpeg" width = "150" height = "300"  align=center />
+![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main1.jpeg)
 ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/main2.jpeg)
 ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat1.jpeg)
 ![image](https://github.com/xdhuangsidi/tino10032/blob/r4/app/chat2.jpeg)
